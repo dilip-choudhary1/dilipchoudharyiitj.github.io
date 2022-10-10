@@ -1,0 +1,49 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Prompt', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+    
+    
+}
+.body{
+    background-image:  url('Retina-Display.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.First_Page h1{
+    color: white;
+    position: absolute;
+    top: 160px;
+    left: 220px;
+    font-size: 150px;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke:1px white;
+    background-image: url('back.png');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.First_Page h2{
+    color: white;
+    font-size: 30px;
+    position :absolute;
+    top: 340px;
+    left: 210px;
+}
+.Second_Page{
+    color: white;
+}
+
+
+

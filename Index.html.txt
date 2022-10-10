@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Chain</title>
+    <link rel="stylesheet" href="BC_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Open+Sans:wght@400;600;800&family=Pacifico&family=Prompt:wght@300;600;900&family=Ubuntu:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <section class="P1">
+        <div class="First_Page">
+                <h1>Block Chain</h1>
+                <h2>Based efficient supply chain solution for the Indian markets</h2> 
+
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="payment_information.html">Our idea</a></li>
+                    <li><a href="payment_information.html">Make Payment</a></li>
+				<li><a href="https://rinkeby.etherscan.io/address/0x64a6bdb8c40085f633a0393277e0332b6f3769b0">Get your payment details</a></li>
+				
+
+
+                </ul>
+                
+        </div>
+        
+    </section>
+    
+</body>
+</html>

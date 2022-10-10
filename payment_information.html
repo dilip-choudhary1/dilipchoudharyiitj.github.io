@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our idea</title>
+    <link rel="stylesheet" href="BC_styleourIdea.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Open+Sans:wght@400;600;800&family=Pacifico&family=Prompt:wght@300;600;900&family=Ubuntu:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="First_Page">
+        <ul>
+            <li><a href="BC2.html">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Our idea</a></li>
+        </ul>
+        
+    </div>
+    <div class="container">
+        <form action="">
+            <h1 class="main_heading">You Must Pay Here</h1>
+            <hr>
+            <p>Required fields are followed by * </p>
+            <h2>Contact Information</h2>
+            <p>Name:* <input type="text" name="name" required placeholder="Chaitanya Ghodmare"></p>
+            <fieldset>
+                <legend>Gender</legend>
+                <p>
+                    Male <input type="radio" name="gender" id="male">
+                    Female <input type="radio" name="gender" id="female">
+                </p>
+            </fieldset>
+    
+            <p>Address: <textarea name="address" id= "address" cols="150" rows="1" placeholder="Enter your parmanent address"></textarea></p>
+            <p>Email:* <input type="email" name="email" id="email" placeholder="abc@gmail.com"></p>
+    
+            <p>Pincode: <input type="number" name="pincode" id="pincode" placeholder="123456"></p>
+    
+            <h2>Your Payment information</h2>
+            <p>Payment type:*
+                <select name="card_type" id="card_type">
+                    <option value="">--Select a Card Type--</option>
+                    <option value="visa">Private Blockchain</option>
+                    <option value="Public Blockchain">Public Blockchain</option>
+                </select>
+    
+            </p>
+            <p>
+               Mobile Number:*<input type="number" name="Card_number" id="Card_number" placeholder="11111-22222"> 
+            </p>
+            <p>
+                Date of Payment:*<input type="date" name="exp_date" id="exp_date">
+            </p>
+            
+            <input type="submit" value="Pay Now">
+        </form>
+      </div>
+</body>
+</html>
